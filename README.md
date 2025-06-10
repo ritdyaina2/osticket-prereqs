@@ -64,6 +64,10 @@ This is showing here the Remote Desktop Connection process as i connect to the A
 <h2>Virtual Machine Desktop View </h2
   
   This shows the destop of the virtual machine after logging in. From here i began preparing to install osTicket in the next step.
+
+![image](https://github.com/user-attachments/assets/1dafd29d-51ec-4c8d-866c-50fb1125611f)
+
   
 </p>
 <br />
+
