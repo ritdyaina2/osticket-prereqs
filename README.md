@@ -23,51 +23,40 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Created a virtual machine in Azure.
 - Connected to the vitual machine using remote desktop (RDP)
 
-<h2>Create Resource Group </h2
+<h2> Step - 1 This is the resource group created in Azure. It holds all the parts needed to set up osTicket in one place.</h2
                                  
-![image](https://github.com/user-attachments/assets/8f21adaf-151b-41e2-9547-55647a41bdeb)
+![resource group](https://github.com/user-attachments/assets/eaf907d5-e94a-4f0b-bfe2-effe42023ddb)
 
 <p>
 </p>
-<p>
 
 
 
-<h2>Virtual Network and Subnet </h2
-                                 
-   This is the virtual network and subnet i created it. It helps my virtual machine connect safely to the internet and other services.  
-
-   
-![image](https://github.com/user-attachments/assets/964539f9-096b-4c9e-a280-5ee071d9c2b0)
+<h2> Step - 2 This shows the virtual network and subnet. It helps the virtual machine connect safely to the internet and other tools.</h2
+                            
+![virtual network](https://github.com/user-attachments/assets/f70456a2-7260-45b6-815d-a5f25254b880)
 
 <p>
 <p>
 
   
-<h2>Virtual Machine </h2
-
-This shows the virtual machine i created in Azure, including its name, status, region, and OS type. This VM is where i will install and run osTicket.
+<h2> Step - 3 This is the virtual machine made in Azure. A Windows system was chosen to install and run osTicket.</h2
 
 ![image](https://github.com/user-attachments/assets/01e42902-89a1-481a-8189-a180e908edd7)
 
 
 
 <p>
-<h2>Connecting to the Virtual Machine </h2
-                                        
-This is showing here the Remote Desktop Connection process as i connect to the Azure VM. This gives me access to the virtual machine's desktop environment.
-                                        
-  ![image](https://github.com/user-attachments/assets/8cf6e77c-c12c-4bef-8b74-5386647ab7cd)
-                                      
+<h2> Step - 4 This shows the Remote Desktop connection loading. It allows access to the virtual machine like a normal computer. </h2>
+
+![tap](https://github.com/user-attachments/assets/179107bc-35a0-4b65-b649-9d109287fd72)
+
 </p>
 
-<h2>Virtual Machine Desktop View </h2
-  
-  This shows the destop of the virtual machine after logging in. From here i began preparing to install osTicket in the next step.
+<h2> Step - 5 Now inside the virtual machine, the Windows desktop is ready to begin the osTicket setup.</h2
+                                                                                                         
+![k](https://github.com/user-attachments/assets/55e5269d-e598-45aa-92d6-e734072c9d3e)
 
-![image](https://github.com/user-attachments/assets/1dafd29d-51ec-4c8d-866c-50fb1125611f)
-
-  
 </p>
 <br />
 
