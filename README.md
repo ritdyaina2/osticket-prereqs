@@ -25,49 +25,105 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2
                         
- Step 1: Create Resource Group
+ Step 1: Create Resource Group.
  
- This is the resource group created in Azure. It holds all the parts needed to set up osTicket in one place.
-                                 
-![resource group](https://github.com/user-attachments/assets/eaf907d5-e94a-4f0b-bfe2-effe42023ddb)
+
+ 
+Purpose: This is your logical container for Azure resources like VM, networks, etc.
+
+
+
+Action:
+
+- Go to Azure Portal → Resource Groups → Click "Create".
+
+- Name it: osticket-resources
+
+- Choose your region
+
+
 
 <p>
 </p>
 
 
 
+
+
+
 Step 2: Create Virtual Network & Subnet
 
-This shows the virtual network and subnet. It helps the virtual machine connect safely to the internet and other tools.
+Purpose: Set up a private network so your VM has secure, isolated access
+
+Action:
+
+- Azure Portal → Virtual Networks → Click "Create"
+
+- Name: osticket-vnet
+
+- Add subnet (e.g., name: default, range: 10.0.0.0/24)
+
                             
-![virtual network](https://github.com/user-attachments/assets/f70456a2-7260-45b6-815d-a5f25254b880)
 
 <p>
 <p>
+
 
   
 Step 3: Create Virtual Machine
 
-This is the virtual machine made in Azure. A Windows system was chosen to install and run osTicket.
 
-![image](https://github.com/user-attachments/assets/01e42902-89a1-481a-8189-a180e908edd7)
+Purpose: Deploy Windows 10 VM to run osTicket and its stack
+
+Action:
+
+- Go to Virtual Machines → "Create"
+
+- Name: osticket-vm
+
+- OS: Windows 10 Pro
+
+- Size: 4 vCPUs
+
+- Username: labuser, Password: osTicketPassword1!
+
+- Network: Select the VNet and subnet you created
+
+
+
 
 
 
 
 Step 4: Connect to the Virtual Machine
   
-This shows the Remote Desktop connection loading. It allows access to the virtual machine like a normal computer.
+Purpose: Log in via RDP to do the installations
 
-![tap](https://github.com/user-attachments/assets/179107bc-35a0-4b65-b649-9d109287fd72)
+Action:
+
+- After the VM is running → Click “Connect” → RDP
+
+- Download RDP file and open it
+
+- Login with: labuser / osTicketPassword1!
+
+
+
 
 </p>
 
+
+
 Step 5: Prepare the VM Desktop
   
-Now inside the virtual machine, the Windows desktop is ready to begin the osTicket setup.
-                                                                                                         
-![k](https://github.com/user-attachments/assets/55e5269d-e598-45aa-92d6-e734072c9d3e)
+Purpose: Clean up & set up environment before installation
+
+Action:
+
+- Open Edge or Chrome and download osTicket-Installation-Files.zip
+
+- Extract to Desktop → Folder name: osTicket-Installation-Files
+
 
 </p>
 <br />
