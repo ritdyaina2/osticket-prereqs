@@ -144,7 +144,24 @@ Enable:
 
 ![image](https://github.com/user-attachments/assets/2988ec9e-f910-489d-a21e-9bd8f5bcfa76)
 
-![image](https://github.com/user-attachments/assets/4b974142-4401-4d12-a50f-0a3857d40ca6)
+![image](https://github.com/user-attachments/assets/a8abb10e-dfce-4908-9738-83162ba9daee)
+
+![image](https://github.com/user-attachments/assets/5eb41581-27e0-436e-b776-a67db3380aba)
+
+![image](https://github.com/user-attachments/assets/4d951e6b-ff44-4f8c-8a11-25989771e385)
+
+
+Step 6 : Install IIS Extensions
+
+From osTicket-Installation-Files folder:
+
+Install PHP Manager for IIS: PHPManagerForIIS_V1.5.0.msi
+
+Install IIS Rewrite Module: rewrite_amd64_en-US.msi
+
+![14](https://github.com/user-attachments/assets/e3b27d38-88d6-4256-9eda-e5dba48e1bc3)
+
+![image](https://github.com/user-attachments/assets/23a6b6d2-27ba-4118-9eb2-f6a77ca028f9)
 
 </p>
 <br />
