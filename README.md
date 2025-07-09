@@ -66,7 +66,7 @@ Action:
 
 - OS: Windows 10 Pro
 
-- Size: 4 vCPUs
+- Size: 2 vCPUs
 
 - Username: labuser, Password: osTicketPassword1!
 
@@ -83,7 +83,8 @@ Action:
 ![7](https://github.com/user-attachments/assets/ff539305-4c0f-42df-8c4e-8c204ce9bbb0)
 
 
-
+<p>
+<p>
 
 Step 3: Connect to the Virtual Machine
   
@@ -96,9 +97,14 @@ Action:
 - Download RDP file and open it
 
 - Login with: labuser / osTicketPassword1!
+- 
+![image](https://github.com/user-attachments/assets/c3603ff1-c8a5-42e1-a5f2-d5ac66fa9f03)
 
+![image](https://github.com/user-attachments/assets/7039000f-70e8-486e-b3ea-08d3ded6e068)
 
+![image](https://github.com/user-attachments/assets/03e91c56-0c9f-480c-8783-2c581763b8a0)
 
+![image](https://github.com/user-attachments/assets/f37ba0ff-fafa-4a3c-a3c0-fff209b88094)
 
 </p>
 
@@ -110,10 +116,13 @@ Purpose: Clean up & set up environment before installation
 
 Action:
 
-- Open Edge or Chrome and download osTicket-Installation-Files.zip
+- Open Edge or Chrome and download [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)
 
 - Extract to Desktop → Folder name: osTicket-Installation-Files
+- 
+![image](https://github.com/user-attachments/assets/68634608-f48a-4d37-9747-99c4c4afcf6e)
 
+![image](https://github.com/user-attachments/assets/7d75c221-89b0-4c83-8592-7eb49784f34b)
 
 </p>
 <br />
