@@ -159,9 +159,16 @@ Install PHP Manager for IIS: PHPManagerForIIS_V1.5.0.msi
 
 Install IIS Rewrite Module: rewrite_amd64_en-US.msi
 
+
 ![14](https://github.com/user-attachments/assets/e3b27d38-88d6-4256-9eda-e5dba48e1bc3)
 
 ![image](https://github.com/user-attachments/assets/23a6b6d2-27ba-4118-9eb2-f6a77ca028f9)
+
+![image](https://github.com/user-attachments/assets/9ba28a46-c4a5-4b3b-b006-ba23896e595b)
+
+![image](https://github.com/user-attachments/assets/372403a9-dd8d-4729-a30a-08a35d0ad4fa)
+
+![image](https://github.com/user-attachments/assets/81d46187-a7df-456e-aff1-227210d1a24c)
 
 </p>
 <br />
