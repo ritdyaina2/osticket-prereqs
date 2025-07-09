@@ -37,40 +37,23 @@ Action:
 
 - Go to Azure Portal → Resource Groups → Click "Create".
 
-- Name it: osticket-resources
+- Name it: osticket
 
 - Choose your region
 
+![image](https://github.com/user-attachments/assets/a5e7a9ad-4326-4019-8e6f-d9673f335a4a)
 
+![image](https://github.com/user-attachments/assets/94b9e6ff-290a-4041-bdeb-e0dea8f7ff0c)
 
 <p>
 </p>
-
-
-
-
-
-
-Step 2: Create Virtual Network & Subnet
-
-Purpose: Set up a private network so your VM has secure, isolated access
-
-Action:
-
-- Azure Portal → Virtual Networks → Click "Create"
-
-- Name: osticket-vnet
-
-- Add subnet (e.g., name: default, range: 10.0.0.0/24)
-
-                            
 
 <p>
 <p>
 
 
   
-Step 3: Create Virtual Machine
+Step 2: Create Virtual Machine
 
 
 Purpose: Deploy Windows 10 VM to run osTicket and its stack
@@ -87,15 +70,22 @@ Action:
 
 - Username: labuser, Password: osTicketPassword1!
 
-- Network: Select the VNet and subnet you created
+- Network:  default VNet and created (automatically)
+- 
+![image](https://github.com/user-attachments/assets/501d4b0a-a741-4b18-9078-8d84530cb569)
+
+![image](https://github.com/user-attachments/assets/dc1cf193-f93f-47b3-9203-07610240ffcd)
+
+![image](https://github.com/user-attachments/assets/c666ba3c-ba6a-44e6-91b1-be10e43b389a)
+
+![image](https://github.com/user-attachments/assets/4c386da7-3a71-4f2f-951a-3ee675fcd7bb)
+
+![7](https://github.com/user-attachments/assets/ff539305-4c0f-42df-8c4e-8c204ce9bbb0)
 
 
 
 
-
-
-
-Step 4: Connect to the Virtual Machine
+Step 3: Connect to the Virtual Machine
   
 Purpose: Log in via RDP to do the installations
 
@@ -114,7 +104,7 @@ Action:
 
 
 
-Step 5: Prepare the VM Desktop
+Step 4: Prepare the VM Desktop
   
 Purpose: Clean up & set up environment before installation
 
