@@ -48,10 +48,6 @@ Action:
 <p>
 </p>
 
-<p>
-<p>
-
-
   
 Step 2: Create Virtual Machine
 
@@ -71,7 +67,7 @@ Action:
 - Username: labuser, Password: osTicketPassword1!
 
 - Network:  default VNet and created (automatically)
-- 
+  
 ![image](https://github.com/user-attachments/assets/501d4b0a-a741-4b18-9078-8d84530cb569)
 
 ![image](https://github.com/user-attachments/assets/dc1cf193-f93f-47b3-9203-07610240ffcd)
@@ -81,11 +77,13 @@ Action:
 ![image](https://github.com/user-attachments/assets/4c386da7-3a71-4f2f-951a-3ee675fcd7bb)
 
 ![7](https://github.com/user-attachments/assets/ff539305-4c0f-42df-8c4e-8c204ce9bbb0)
+<p>
+<p>
 
 
 <p>
 <p>
-
+  
 Step 3: Connect to the Virtual Machine
   
 Purpose: Log in via RDP to do the installations
@@ -105,9 +103,8 @@ Action:
 ![image](https://github.com/user-attachments/assets/03e91c56-0c9f-480c-8783-2c581763b8a0)
 
 ![image](https://github.com/user-attachments/assets/f37ba0ff-fafa-4a3c-a3c0-fff209b88094)
-
 </p>
-
+</p>
 
 
 Step 4: Prepare the VM Desktop
@@ -123,6 +120,8 @@ Action:
 ![image](https://github.com/user-attachments/assets/68634608-f48a-4d37-9747-99c4c4afcf6e)
 
 ![image](https://github.com/user-attachments/assets/7d75c221-89b0-4c83-8592-7eb49784f34b)
+
+![14](https://github.com/user-attachments/assets/e3b27d38-88d6-4256-9eda-e5dba48e1bc3)
 
 </p>
 <br />
