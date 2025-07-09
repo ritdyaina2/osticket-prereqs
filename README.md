@@ -123,6 +123,29 @@ Action:
 
 ![14](https://github.com/user-attachments/assets/e3b27d38-88d6-4256-9eda-e5dba48e1bc3)
 
+
+Step 5: Install IIS with CGI Enabled
+
+Go to Start menu → Control Panel → Programs → Turn Windows features on or off
+
+Enable:
+
+- Internet Information Services
+
+- World Wide Web Services → Application Development Features → [✓] CGI
+
+- Wait for the installation to complete.
+
+![15](https://github.com/user-attachments/assets/979cc81c-0c31-40c0-8787-3919437d14fe)
+
+![image](https://github.com/user-attachments/assets/7c33e757-0b7f-4a30-a746-463ea3e6b835)
+
+![image](https://github.com/user-attachments/assets/09e1987e-e506-4a4b-b4d2-4dfc40eff358)
+
+![image](https://github.com/user-attachments/assets/2988ec9e-f910-489d-a21e-9bd8f5bcfa76)
+
+![image](https://github.com/user-attachments/assets/4b974142-4401-4d12-a50f-0a3857d40ca6)
+
 </p>
 <br />
 
