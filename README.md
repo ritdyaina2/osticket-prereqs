@@ -153,11 +153,11 @@ Enable:
 
 Step 6 : Install IIS Extensions
 
-From osTicket-Installation-Files folder:
+- From osTicket-Installation-Files folder:
 
-Install PHP Manager for IIS: PHPManagerForIIS_V1.5.0.msi
+- Install PHP Manager for IIS: PHPManagerForIIS_V1.5.0.msi
 
-Install IIS Rewrite Module: rewrite_amd64_en-US.msi
+- Install IIS Rewrite Module: rewrite_amd64_en-US.msi
 
 
 ![14](https://github.com/user-attachments/assets/e3b27d38-88d6-4256-9eda-e5dba48e1bc3)
@@ -181,6 +181,45 @@ Install IIS Rewrite Module: rewrite_amd64_en-US.msi
 ![image](https://github.com/user-attachments/assets/f643020f-096d-4eb6-bd81-97bcb0a3d5b3)
 
 ![image](https://github.com/user-attachments/assets/4551617b-f3a5-4be0-8f03-bd218b66d61c)
+
+![image](https://github.com/user-attachments/assets/3df50747-dcbb-4648-93ba-4a8e64b4780a)
+
+
+Step 8: Set Up PHP Runtime
+
+- Create folder: C:\PHP
+
+- Unzip php-7.3.8-nts-Win32-VC15-x86.zip into C:\PHP
+
+- Install VC_redist.x86.exe (Visual C++ Runtime)
+
+![image](https://github.com/user-attachments/assets/7e64f96b-6465-4a76-a73f-d41805106f5a)
+
+Step 9: Install MySQL Server
+
+- Run mysql-5.5.62-win32.msi
+
+- Choose: Typical Setup
+
+- After install, launch MySQL Configuration Wizard
+
+- Choose Standard Configuration
+
+Set username: root, password: root
+
+![image](https://github.com/user-attachments/assets/6ebbafe9-3ab4-4d87-80fd-1f716df90b94)
+
+![image](https://github.com/user-attachments/assets/27c6ee78-de9f-4141-a0b1-89eafb36a00b)
+
+![image](https://github.com/user-attachments/assets/d5dbd62c-9ed7-44fa-9106-0d03905209ae)
+
+![image](https://github.com/user-attachments/assets/2d2c14ac-e354-4ca4-9f36-4efecebe021b)
+
+![34](https://github.com/user-attachments/assets/6238ba50-829d-469b-ad5e-15cb54e32dcf)
+
+![image](https://github.com/user-attachments/assets/ececa8e6-9500-4481-8d01-21c2ac9b99eb)
+
+![36](https://github.com/user-attachments/assets/c63b9b9a-6016-4d89-9b79-e116e3660771)
 
 </p>
 <br />
