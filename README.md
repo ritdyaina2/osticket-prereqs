@@ -247,6 +247,23 @@ Restart IIS (Stop/Start from within IIS Manager)
 ![image](https://github.com/user-attachments/assets/737aa44b-6673-4ad0-80ff-3b7f648b693d)
 
 
+Step 11: Unzip & Move osTicket Files
+
+From osTicket-Installation-Files folder:
+
+Unzip osTicket-v1.15.8.zip
+
+Copy the upload folder into C:\inetpub\wwwroot
+
+Rename upload to osTicket
+
+![image](https://github.com/user-attachments/assets/d40b0a96-119c-44a5-90ee-c8d4b3147ab5)
+
+![image](https://github.com/user-attachments/assets/4c0ce0fa-dd1f-457c-aaff-8334467a25b7)
+
+![45](https://github.com/user-attachments/assets/83470ebc-bf9e-4a64-9924-0def1f9b1142)
+
+
 </p>
 <br />
 
