@@ -224,13 +224,13 @@ Set username: root, password: root
 
 Step 9: Register PHP with IIS
 
-Open IIS as Administrator
+- Open IIS as Administrator
 
-Click your computer name  → PHP Manager
+- Click your computer name  → PHP Manager
 
-Register new PHP → Path: C:\PHP\php-cgi.exe
+- Register new PHP → Path: C:\PHP\php-cgi.exe
 
-Restart IIS (Stop/Start from within IIS Manager)
+- Restart IIS (Stop/Start from within IIS Manager)
 
 ![image](https://github.com/user-attachments/assets/51e677ed-1375-44d5-889b-8a176ec5ec33)
 
@@ -249,13 +249,13 @@ Restart IIS (Stop/Start from within IIS Manager)
 
 Step 10: Unzip & Move osTicket Files
 
-From osTicket-Installation-Files folder:
+- From osTicket-Installation-Files folder:
 
-Unzip osTicket-v1.15.8.zip
+- Unzip osTicket-v1.15.8.zip
 
-Copy the upload folder into C:\inetpub\wwwroot
+- Copy the upload folder into C:\inetpub\wwwroot
 
-Rename upload to osTicket
+- Rename upload to osTicket
 
 ![image](https://github.com/user-attachments/assets/d40b0a96-119c-44a5-90ee-c8d4b3147ab5)
 
@@ -265,11 +265,11 @@ Rename upload to osTicket
 
 Step 11: Browse to osTicket
 
-In IIS: Sites → Default Website → osTicket
+- In IIS: Sites → Default Website → osTicket
 
-Click "Browse *:80"
+- Click "Browse *:80"
 
-Open osTicket setup page in browser (http://localhost/osTicket)
+- Open osTicket setup page in browser (http://localhost/osTicket)
 
 ![image](https://github.com/user-attachments/assets/0739c580-57c2-402e-a3f7-387c918b4aa0)
 
@@ -278,15 +278,15 @@ Open osTicket setup page in browser (http://localhost/osTicket)
 
 Step 12: Enable PHP Extensions
 
-In PHP Manager → "Enable or disable an extension"
+- In PHP Manager → "Enable or disable an extension"
 
 Enable:
 
-php_imap.dll
+- php_imap.dll
 
-php_intl.dll
+- php_intl.dll
 
-php_opcache.dll
+- php_opcache.dll
 
 Refresh osTicket installer page to verify they are now enabled
 
@@ -295,6 +295,77 @@ Refresh osTicket installer page to verify they are now enabled
 ![image](https://github.com/user-attachments/assets/2a3bf03a-798d-455b-ad0c-001f279707e6)
 
 ![50](https://github.com/user-attachments/assets/e1c80705-88f8-4e99-bc21-3bc0ab52205f)
+
+
+Step 13: Rename & Secure Config File 
+
+Navigate to:
+
+- Windows (C):\inetpub\wwwroot\osTicket\include
+
+Rename:
+- ost-sampleconfig.php → ost-config.php
+
+- Right-click → Properties → Security:
+
+- Disable inheritance
+
+- Remove all users
+
+- Add Everyone with Full Control
+
+![image](https://github.com/user-attachments/assets/19769158-1c7a-4d44-9f0f-517d94f5de08)
+
+![52](https://github.com/user-attachments/assets/14ce3db6-8ccf-46fb-82db-e4fc1debb82f)
+
+
+Step 14: Fill Out Web Installer
+
+- Return to browser → osTicket web setup
+
+Fill in:
+
+- Helpdesk Name
+
+- Admin Email
+
+- Admin Username/Password
+
+![53](https://github.com/user-attachments/assets/10a15aaf-33e3-4e75-9dc4-148e5ffb922e)
+
+
+Step 17: Complete osTicket Installation
+
+- In the browser installer:
+
+Enter:
+
+- MySQL Database: osTicket
+
+- MySQL Username: root
+
+- Password: root
+
+- Click "Install Now"
+
+- After success → You’ll be redirected to:
+
+- Admin login: http://localhost/osTicket/scp/login.php
+
+- End-user portal: http://localhost/osTicket/
+
+
+![image](https://github.com/user-attachments/assets/13710267-6fdf-47bb-9d4e-e48d4b5566ac)
+
+![image](https://github.com/user-attachments/assets/1357e48a-1837-4e8f-9b17-cf25e3fb7a10)
+
+![image](https://github.com/user-attachments/assets/aeb0f393-29bc-4fca-97af-62e0897c6acf)
+
+![image](https://github.com/user-attachments/assets/f1ffcf22-a6f3-46ef-8e7b-346c29b02b60)
+
+![image](https://github.com/user-attachments/assets/9470c238-085b-40fb-8283-2fe34c81d014)
+
+![58](https://github.com/user-attachments/assets/742afb05-4db7-447c-b2b1-c6011189c07d)
 
 </p>
 <br />
