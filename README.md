@@ -221,6 +221,32 @@ Set username: root, password: root
 
 ![36](https://github.com/user-attachments/assets/c63b9b9a-6016-4d89-9b79-e116e3660771)
 
+
+Step 10: Register PHP with IIS
+
+Open IIS as Administrator
+
+Click your computer name  → PHP Manager
+
+Register new PHP → Path: C:\PHP\php-cgi.exe
+
+Restart IIS (Stop/Start from within IIS Manager)
+
+![image](https://github.com/user-attachments/assets/51e677ed-1375-44d5-889b-8a176ec5ec33)
+
+![image](https://github.com/user-attachments/assets/6c231706-eb78-405b-8d8a-d169de4f83c7)
+
+![image](https://github.com/user-attachments/assets/3e9947f9-075a-47c4-8f5a-98d47b6264a4)
+
+![image](https://github.com/user-attachments/assets/033924e6-7a4f-437b-aacb-61a69e6ae3da)
+
+![image](https://github.com/user-attachments/assets/84beebcc-da65-44a9-bc04-7438ffcd8640)
+
+![Screenshot 2025-07-09 171808](https://github.com/user-attachments/assets/47aeacc0-1791-494e-a18a-ab158f90c011)
+
+![image](https://github.com/user-attachments/assets/737aa44b-6673-4ad0-80ff-3b7f648b693d)
+
+
 </p>
 <br />
 
