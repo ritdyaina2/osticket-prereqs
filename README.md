@@ -185,7 +185,7 @@ Step 6 : Install IIS Extensions
 ![image](https://github.com/user-attachments/assets/3df50747-dcbb-4648-93ba-4a8e64b4780a)
 
 
-Step 8: Set Up PHP Runtime
+Step 7: Set Up PHP Runtime
 
 - Create folder: C:\PHP
 
@@ -195,7 +195,7 @@ Step 8: Set Up PHP Runtime
 
 ![image](https://github.com/user-attachments/assets/7e64f96b-6465-4a76-a73f-d41805106f5a)
 
-Step 9: Install MySQL Server
+Step 8: Install MySQL Server
 
 - Run mysql-5.5.62-win32.msi
 
@@ -222,7 +222,7 @@ Set username: root, password: root
 ![36](https://github.com/user-attachments/assets/c63b9b9a-6016-4d89-9b79-e116e3660771)
 
 
-Step 10: Register PHP with IIS
+Step 9: Register PHP with IIS
 
 Open IIS as Administrator
 
@@ -247,7 +247,7 @@ Restart IIS (Stop/Start from within IIS Manager)
 ![image](https://github.com/user-attachments/assets/737aa44b-6673-4ad0-80ff-3b7f648b693d)
 
 
-Step 11: Unzip & Move osTicket Files
+Step 10: Unzip & Move osTicket Files
 
 From osTicket-Installation-Files folder:
 
@@ -263,7 +263,33 @@ Rename upload to osTicket
 
 ![45](https://github.com/user-attachments/assets/83470ebc-bf9e-4a64-9924-0def1f9b1142)
 
+Step 11: Browse to osTicket
 
+In IIS: Sites → Default Website → osTicket
+
+Click "Browse *:80"
+
+Open osTicket setup page in browser (http://localhost/osTicket)
+
+![image](https://github.com/user-attachments/assets/0739c580-57c2-402e-a3f7-387c918b4aa0)
+
+![image](https://github.com/user-attachments/assets/2f3caaa9-1fbd-4eeb-a9eb-97e71720ed25)
+
+
+Step 12: Enable PHP Extensions
+
+In PHP Manager → "Enable or disable an extension"
+
+Enable:
+
+php_imap.dll
+
+php_intl.dll
+
+php_opcache.dll
+
+
+Refresh osTicket installer page to verify they are now enabled
 </p>
 <br />
 
