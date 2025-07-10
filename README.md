@@ -288,8 +288,14 @@ php_intl.dll
 
 php_opcache.dll
 
-
 Refresh osTicket installer page to verify they are now enabled
+
+![image](https://github.com/user-attachments/assets/12431e86-476f-438c-8144-85f8c204c910)
+
+![image](https://github.com/user-attachments/assets/2a3bf03a-798d-455b-ad0c-001f279707e6)
+
+![50](https://github.com/user-attachments/assets/e1c80705-88f8-4e99-bc21-3bc0ab52205f)
+
 </p>
 <br />
 
